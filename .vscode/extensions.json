@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "eamodio.gitlens"
+  ]
+}
