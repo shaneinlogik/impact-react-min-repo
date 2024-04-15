@@ -19,5 +19,16 @@ function CounterStore() {
 export default function App() {
   const {count, increase} = useStore(CounterStore);
 
-  return <Button onPress={increase} title={`Increase (${count})`} />;
+  // Trigger: set a signal value after awaiting any promise.
+
+  // Each time this handler is called the number
+  // of rerenders doubles.
+  const handleButtonPress = async () => {
+    await Promise.resolve();
+    increase();
+  };
+
+  console.log('render');
+
+  return <Button onPress={handleButtonPress} title={`Increase (${count})`} />;
 }

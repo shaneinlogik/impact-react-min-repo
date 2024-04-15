@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "impact-react": "^1.2.6",
+    "impact-react": "^1.2.7",
     "react": "18.2.0",
     "react-native": "0.72.12",
     "react-native-navigation": "^7.39.1"

@@ -3742,10 +3742,10 @@ image-size@^1.0.2:
   dependencies:
     queue "6.0.2"
 
-impact-react@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/impact-react/-/impact-react-1.2.6.tgz#50e3187b5917c7e3193eff598d0496201766a906"
-  integrity sha512-LyCkAcQVcPc5nglY3AUAipMoHA/ObUv+538TQ5F2s6Faz6oA/KXo5qRq07DLDEKVu85hWN0BRapDNHyxXVpb2A==
+impact-react@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/impact-react/-/impact-react-1.2.7.tgz#877ae8491d02664264ddc23dd387084951139db1"
+  integrity sha512-2jPvjj8eClNWwKSbHJh5NH06WH3jy5P3Z0KnFBKKqbRwnPsbwBpUSV9M16SAgHQfKoxcB8BKJD3BCPK3834v5w==
   dependencies:
     decamelize "^6.0.0"
     preact "^10.19.3"
