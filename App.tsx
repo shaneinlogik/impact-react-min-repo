@@ -22,9 +22,9 @@ export default function App() {
   // Trigger: set a signal value after awaiting any promise.
 
   // Each time this handler is called the number
-  // of rerenders doubles.
+  // of renders doubles.
   const handleButtonPress = async () => {
-    await Promise.resolve();
+    await Promise.resolve(); // when this line is removed there is 1 render per button click
     increase();
   };
 
